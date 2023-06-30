@@ -2,7 +2,7 @@ package polymorphism;
 
 public class Offseason extends Onseason{
 	int discount1;
-	public void dis2()
+	public void dis()
 	{
 		super.dis();
 		discount1=(price*15)/100;
@@ -12,7 +12,7 @@ public class Offseason extends Onseason{
 	public static void main(String[] args) {
 		
 		Offseason sc=new Offseason();
-		sc.dis2();
+		sc.dis();
 
 	}
 

@@ -14,7 +14,7 @@ public class RevArray {
 		System.out.println("Enter "+n+" elements");
 		for(i=0;i<n;i++)
 		{
-		arra[i]=sc.nextInt()	;
+		arra[i]=sc.nextInt();
 		}
 		System.out.println("Reverse of Array is: ");
 		for(i=n;i>0;i--,j++)
